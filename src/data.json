@@ -1,0 +1,54 @@
+[
+  {
+    "url": "/adharfront.jpg",
+    "title": "Adhar Card Front"
+  },
+  {
+    "url": "/adharback.jpg",
+    "title": "Adhar Card Back"
+  },
+  {
+    "url": "/pancard.jpg",
+    "title": "Pan Card"
+  },
+  {
+    "url": "/passbook.jpg",
+    "title": "Passbook"
+  },
+  {
+    "url": "/highfront.jpg",
+    "title": "High Front"
+  },
+  {
+    "url": "/highback.jpg",
+    "title": "High Back"
+  },
+  {
+    "url": "/interfront.jpg",
+    "title": "Inter Front"
+  },
+  {
+    "url": "/interback.jpg",
+    "title": "Inter Back"
+  },
+  {
+    "url": "/adca.jpg",
+    "title": "ADCA"
+  },
+  {
+    "url": "/ephoto.jpg",
+    "title": "E Photo"
+  },
+  {
+    "url": "/photo.jpg",
+    "title": "Photo"
+  },
+  {
+    "url": "/noentry.jpg",
+    "title": "No Entery"
+  },
+  {
+    "url": "/cv.jpg",
+    "title": "CV"
+  }
+]
