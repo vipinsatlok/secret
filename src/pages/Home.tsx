@@ -3,7 +3,7 @@ import Login from "./Login";
 
 interface IHome {
   isLogin: boolean;
-  setIsLoginFuntion?: () => {};
+  setIsLoginFuntion: any;
 }
 
 export default function Home({ isLogin, setIsLoginFuntion }: IHome) {
@@ -13,9 +13,8 @@ export default function Home({ isLogin, setIsLoginFuntion }: IHome) {
   return (
     <div>
       <h1 className="text-xl mb-4 font-bold">My Personal Data</h1>
-
       {data.map((item) => (
-        <Card {...item} />
+        <Card key={item.url} {...item} />
       ))}
     </div>
   );
@@ -28,7 +27,7 @@ interface ICard {
 
 const Card = ({ title, url }: ICard) => {
   return (
-    <div className="mb-7">
+    <div className="mb-7 pb-2 border-b border-white">
       <h2>{title}</h2>
       <img className="max-w-sm" src={"/secretImages01" + url} alt={title} />
     </div>

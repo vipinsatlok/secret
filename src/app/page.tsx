@@ -5,7 +5,7 @@ import Home from "@/pages/Home";
 import { useState } from "react";
 
 export default function Page() {
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
 
   const setIsLoginFuntion = (): void => {
     setIsLogin(true);
